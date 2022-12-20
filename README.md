@@ -64,10 +64,6 @@
 
 ## :mag: Content
 
----
-
-<br/>
-
 ### 1. Database
 
 - [Question](./database/README.md)
