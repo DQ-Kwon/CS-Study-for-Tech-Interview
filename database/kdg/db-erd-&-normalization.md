@@ -34,7 +34,7 @@
     ![db_normal_1NF_Before](img/db_normal_1NF_Before.png)
 
     After  
-    ![db_normal_1NF_After](img/db_normal_1NF_after.png)
+    ![db_normal_1NF_After](img/db_normal_1NF_After.png)
 
   **제 2 정규화**
 
@@ -46,7 +46,7 @@
     ![db_normal_2NF_Before](img/db_normal_2NF_Before.png)
 
     After  
-    ![db_normal_2NF_After](img/db_normal_2NF_after.png)
+    ![db_normal_2NF_After](img/db_normal_2NF_After.png)
 
   **제 3 정규화**
 
@@ -58,7 +58,7 @@
     ![db_normal_3NF_Before](img/db_normal_3NF_Before.png)
 
     After  
-    ![db_normal_3NF_After](img/db_normal_3NF_after.png)
+    ![db_normal_3NF_After](img/db_normal_3NF_After.png)
 
   **BCNF 정규화**
 
@@ -69,7 +69,7 @@
     ![db_normal_BCNF_Before](img/db_normal_BCNF_Before.png)
 
     After  
-    ![db_normal_BCNF_After](img/db_normal_BCNF_after.png)
+    ![db_normal_BCNF_After](img/db_normal_BCNF_After.png)
 
 - ### 역정규화Denormalization)
 
