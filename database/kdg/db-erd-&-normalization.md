@@ -3,7 +3,7 @@
 빠른 이동
 |<- 이전 | 현재 | 다음 ->|
 |:---:|:---:|:---:|
-|[데이터베이스의 기본](./db-transaction-&-integrity.md)|ERD와 정규화|[트랜잭션과 무결성](./db-transaction-&-integrity.md)|
+|[데이터베이스의 기본](./db-basic.md)|ERD와 정규화|[트랜잭션과 무결성](./db-transaction-&-integrity.md)|
 
 ## 2. ERD와 정규화
 
