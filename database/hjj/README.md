@@ -170,7 +170,7 @@
 - 한 번에 로킹 할 수 있는 객체의 크기
 - **필드**, **레코드**, **테이블**, **파일**, **데이터베이스** 모두 로킹 단위가 될 수 있음.
 
-![Untitled](./img/Untitled 1.png)
+![Untitled](./img/Untitled1.png)
 
 ### 4. 트랜잭션에 의해 발생할 수 있는 데드락에 대해 설명
 
@@ -228,7 +228,7 @@
 
 ### 5. 트랜잭션 격리 수준의 각 레벨에 대해 간략하게 설명
 
-![Untitled](./img/Untitled 2.png)
+![Untitled](./img/Untitled2.png)
 
 ✔️ **SERIALIZABLE**
 
@@ -289,13 +289,13 @@
 "**커밋이 수행되었다.**" == "**하나의 트랜잭션이 성공적으로 수행되었다.**"
 ```
 
-![Untitled](./img/Untitled 3.png)
+![Untitled](./img/Untitled3.png)
 
 ✔️ **ROLLBACK**
 
 - 에러나 여러 이슈 때문에 트랜잭션 전으로 되돌리는 것(취소)
 
-![Untitled](./img/Untitled 4.png)
+![Untitled](./img/Untitled4.png)
 
 ## 📔 데이터 모델링
 
@@ -343,7 +343,7 @@
 - 삽입이상(****Insertion anomaly)****
     - 특정 데이터가 존재하지 않아 중요한 데이터를 데이터베이스에 삽입할 수 없을 때 발생
     
-    ![Untitled](./img/Untitled 5.png)
+    ![Untitled](./img/Untitled5.png)
     
 
 ➡️ 대학교 Table에서 새로운 학과를 추가하려고 할 때 학생명이 없으면 새로운 학과 추가 불가
@@ -351,13 +351,13 @@
 - 삭제이상(****Deletion anomaly)****
     - 특정 정보를 삭제하면, 원치 않는 정보도 삭제되는 현상
     
-    ![Untitled](./img/Untitled 6.png)
+    ![Untitled](./img/Untitled6.png)
     
 
 - 갱신이상(****Update anomaly)****
     - 테이블의 특정 데이터를 업데이트했는데, 정상적으로 변경되지 않은 경우 그리고 너무 많은 행을 업데이트하는 것
     
-    ![Untitled](./img/Untitled 7.png)
+    ![Untitled](./img/Untitled7.png)
     
 
 ➡️ 위 테이블에서 경영학과의 학과장 코드와 학과자명을 변경하고자 할 때 100개의 데이터를 하나하나 다 바꿔줘야 함.
@@ -368,7 +368,7 @@
 
 ❓ 테이블(릴레이션)의 컬럼(도메인)이 원자값(Atomic Value, 하나의 값)을 갖도록 테이블을 분해하는 것 ⇒ 도메인 원자값
 
-![Untitled](./img/Untitled 8.png)
+![Untitled](./img/Untitled8.png)
 
 ✔️ **제2정규형(2NF)**
 
@@ -376,19 +376,19 @@
 
 - 즉, 기본키의 부분 집합이 결정자가 되어선 안된다는 것
 
-![Untitled](./img/Untitled 9.png)
+![Untitled](./img/Untitled9.png)
 
 ✔️ **제3정규형(3NF)**
 
 ❓ 제2정규형이며 기본키가 아닌 모든 속성이 이행적 함수 종속(transivive FD)을 만족하지 않는 상태 ⇒ 이행적 함수 종속 제거
 
-![Untitled](./img/Untitled 10.png)
+![Untitled](./img/Untitled10.png)
 
 ✔️ **보이스/코드 정규형(BCNF)**
 
 ❓ 제3정규형이며, 결정자인데 후보키가 아닌 것을 모두 제거한 상태
 
-![Untitled](./img/Untitled 11.png)
+![Untitled](./img/Untitled11.png)
 
 ✔️ **제4정규형(4NF)**
 
