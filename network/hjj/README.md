@@ -12,8 +12,8 @@
 
 - 컴퓨터로 연결하여 TCP/IP(Transmission Control Protocol/Internet Protocol)라는 통신 프로토콜
 을 이용해 정보를 주고받는 컴퓨터 네트워크
-- **'~간의'**를 의미하는 **`inter`**와 **'네트워크'**의 **`net`**을 합성한 단어
-- 인터넷도 **'네트워크 간의'**를 의미하며 **네트워크와 네트워크를 연결**한다는 의미로 쓰임.
+- '~간의'를 의미하는 `inter`와 '네트워크'의 `net`을 합성한 단어
+- 인터넷도 '네트워크 간의'를 의미하며 네트워크와 네트워크를 연결한다는 의미로 쓰임.
 - 즉, **네트워크간의 연결**, **네트워크의 네트워크**라는 뜻을 지니고 있음.
 
 ✔️ **프로토콜**
@@ -37,20 +37,20 @@
 
 - **유니캐스트** ( Unicast )
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled.png)
+    ![Untitled](./img/Untitled.png)
     
     - 고유 주소로 식별된 하나의 네트워크 목적지에 1:1로 데이터를 전송하는 방식
     - 받는 입장에서 자신의 MAC과 비교하여 동일하지 않으면 해당 통신을 받지 않기 때문에 CPU 성능을 저하시키지 않음.
 - **브로드캐스트** ( Broadcast )
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%201.png)
+    ![Untitled](./img/Untitled1.png)
     
     - 같은 네트워크에 있는 모든 장비들에게 보내는 통신
     - 아파트 관리 사무소 방송처럼 해당 네트워크에 있는 PC들이 신호를 받고 싶던 말던 무조건 받게 됨.
     - 주로 상대 IP는 알지만 MAC을 모를 경우에 사용함.
 - **멀티캐스트** ( Multicast )
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%202.png)
+    ![Untitled](./img/Untitled2.png)
     
     - 같은 데이터를 특정 그룹에게 보내주어야 할 때 사용하는 인터넷 프로토콜 ex) TV
     - 유니캐스트 + 브로드캐스트를 합쳐놓은 듯한 개념.
@@ -60,7 +60,7 @@
 
 ### 3. 네트워크 모델 2가지를 설명하고 두 모델의 공통점과 차이점을 설명해주세요.
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%203.png)
+![Untitled](./img/Untitled3.png)
 
 ✔️ **OSI 7계층**
 
@@ -136,7 +136,7 @@
     UDP는 이 과정이 없기 때문에 신뢰성이 없는 계층
     ```
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%204.png)
+    ![Untitled](./img/Untitled4.png)
     
     ```
     <4-way handshake>
@@ -148,7 +148,7 @@
     
     ```
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%205.png)
+    ![Untitled](./img/Untitled5.png)
     
     - `**UDP(User Datagram Protocol)**`
         - **순서를 보장하지 않고** 수신 여부를 확인하지 않음.
@@ -191,7 +191,7 @@
 
 ✔️ **이더넷 프레임의 구조**
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%206.png)
+![Untitled](./img/Untitled6.png)
 
 - **Preamble** : 이더넷 프레임이 시작임을 알림.
 - **SFD(Start Frame Delimiter)** : 다음 바이트부터 MAC 주소 필드가 시작됨을 알림.
@@ -216,14 +216,14 @@
 - 망의 구성 형태 : **계층형**, **버스형**, **성형**, **링형**, **메쉬형**
 - `**계층형(Tree Topology)**`
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%207.png)
+    ![Untitled](./img/Untitled7.png)
     
     - **트리 형태**로 배치한 네트워크 구성
     - 노드의 추가, 삭제가 쉬움.
     - 특정 노드에 트래픽이 집중될 때 하위 노드에 영향을 끼칠 수 있음.
 - `**버스형(Bus Topology)**`
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%208.png)
+    ![Untitled](./img/Untitled8.png)
     
     - **중앙 통신 회선 하나에 여러 개의 노드가 연결**되어 공유하는 네트워크 구성
     - 설치 비용이 적고 신뢰성이 우수, 중앙 통신 회선에 노드 추가, 삭제가 쉬움.
@@ -231,7 +231,7 @@
     - 스푸핑 : 송신과 관련 없는 다른 호스트에 가지 않도록 하는 스위칭 기능을 마비시키거나 속여서 특정 노드(악의적인 노드)에 해당 패킷이 오도록 처리하는 것.
 - `**성형(Star Topology)**`
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%209.png)
+    ![Untitled](./img/Untitled9.png)
     
     - **중앙에 있는 노드에 모두 연결**된 네트워크 구성
     - 노드를 추가하거나 에러 탐지가 쉬움.
@@ -241,7 +241,7 @@
     - 설치 비용이 고가
 - `**링형(Ring Topology)**`
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2010.png)
+    ![Untitled](./img/Untitled10.png)
     
     - 각각의 노드가 양 옆의 두 노드와 연결하여 전체적으로 **고리처럼 하나의 연속된 길**을 통해 통신을 하는 구성 방식
     - 데이터는 노드에서 노드로 이동
@@ -251,7 +251,7 @@
     - 회선에 장애가 발생하면 전체 네트워크에 영향을 끼침.
 - `**메쉬형(Mesh Topology)**`
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2011.png)
+    ![Untitled](./img/Untitled11.png)
     
     - 망형 토폴로지라고도 하며 **그물망처럼 연결**되어 있는 구조
     - 한 단말 장치에 장애가 발생해도 여러 개의 경로가 존재하므로 네트워크를 계속 사용할 수 있음.
@@ -291,7 +291,7 @@
 | 품질 제어 | 품질 보장 곤란 | 등급/ 서비스 별로 패킷을 구분할 수 있어 품질 보장 용이 |
 - **8비트를 이진수로 표현하면 11111111 최대 값**인데 이걸 **10진수**로 표현하면 **255**가 됨.
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2012.png)
+![Untitled](./img/Untitled12.png)
 
 ### 3. IP 주소 클래스에 대해서 설명해주세요.
 
@@ -301,9 +301,9 @@
 - **호스트 주소** : **하나의 네트워크 내에 존재하는 호스트(단말)를 구분하기 위한 주소**
 - IP 주소에서 네트워크 주소와 호스트 주소를 구분하기 위해 클래스라는 개념이 도입
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2013.png)
+    ![Untitled](./img/Untitled13.png)
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2014.png)
+    ![Untitled](./img/Untitled14.png)
     
 - D 클래스 : 브로드캐스트용 주소
 - E 클래스 : 예비용 주소
@@ -316,7 +316,7 @@
 - **클래스 리스에서 사용하는 구분자**가 서브넷 마스크
 - **1은 네트워크 주소, 0은 호스트 주소**
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2015.png)
+![Untitled](./img/Untitled15.png)
 
 ## 📔 ARP 프로토콜
 
@@ -361,7 +361,7 @@ IPv4 : 기본적으로 패킷 교환 네트워크 **(Packet Switching Network)*
 
 ✔️ **ICMP 프로토콜 구조**
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2016.png)
+![Untitled](./img/Untitled16.png)
 
 - **`Type`** : ICMP **패킷의 종류**를 의미
 - `**Code**` : **Type**을 좀 더 자세히 **분류**
@@ -371,7 +371,7 @@ IPv4 : 기본적으로 패킷 교환 네트워크 **(Packet Switching Network)*
 
 ### 3. 다른 네트워크까지 내 패킷의 이동 과정을 설명해주세요.
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2017.png)
+![Untitled](./img/Untitled17.png)
 
 ✔️ 패킷 송신
 
@@ -389,7 +389,7 @@ IPv4 : 기본적으로 패킷 교환 네트워크 **(Packet Switching Network)*
 
 ❓ 네트워크 상에서 특정 PC를 나타내는 **IP주소에 진입할 수 있는 정해진 통로**
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2018.png)
+![Untitled](./img/Untitled18.png)
 
 **✔️ 포트 번호**
 
@@ -471,7 +471,7 @@ IPv4 : 기본적으로 패킷 교환 네트워크 **(Packet Switching Network)*
 UDP는 이 과정이 없기 때문에 신뢰성이 없는 계층
 ```
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%204.png)
+![Untitled](./img/Untitled4.png)
 
 ### 3. 3-way handshake에서 클라이언트가 서버가 보낸 ACK+SYC을 받지 못하면 어떻게 되나요?
 
@@ -493,7 +493,7 @@ UDP는 이 과정이 없기 때문에 신뢰성이 없는 계층
 
 ```
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%205.png)
+![Untitled](./img/Untitled5.png)
 
 ### 5. 4-way handshake에서 클라이언트가 마지막에 ACK를 보내는 이유는 무엇인가요?
 
@@ -583,7 +583,7 @@ UDP는 이 과정이 없기 때문에 신뢰성이 없는 계층
 
 - 웹 애플리케이션은 리소스가 자신의 출처(도메인, 프로토콜, 포트)와 다를 때 교차 출처 HTTP 요청을 실행
 
-![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2019.png)
+![Untitled](./img/Untitled19.png)
 
 - 위 사진에서 `Protocol + Host + Port` 가 **같으면 동일 출처**(Origin)이라고 함.
 - **동일 출처** 예시
@@ -627,7 +627,7 @@ UDP는 이 과정이 없기 때문에 신뢰성이 없는 계층
 
 ### 5. JWT 에 대해서 설명해주세요.
 
-✔️ JWT(JSON Web Token
+✔️ JWT(JSON Web Token)
 
 - 인증에 필요한 정보들을 암호화시킨 JSON 토큰을 의미
 - JWT 토큰(Access Token)을 HTTP 헤더에 실어 서버가 클라이언트를 식별하는 방식
@@ -636,7 +636,7 @@ UDP는 이 과정이 없기 때문에 신뢰성이 없는 계층
 - 토큰 내부에는 위변조 방지를 위해 개인키를 통한 전자 서명도 들어있음.
 - 세 가지 문자열의 조합 : `Header + Payload + Signature`
     
-    ![Untitled](Network%20a2cfc6a673aa478abe6b00d3c245feec/Untitled%2020.png)
+    ![Untitled](./img/Untitled20.png)
     
 - `**Header**` : **JWT에서 사용할 타입**과 **해시 알고리즘의 종류**가 담겨 있음.
 - `**Payload**` : 서버에서 첨부한 **사용자 권한 정보**와 **데이터**
