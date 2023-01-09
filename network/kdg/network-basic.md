@@ -1,6 +1,6 @@
 # CS Study - Network
 
-빠른 이동
+<!-- prettier-ignore -->
 |<- 이전 | 현재 | 다음 ->|
 |:---:|:---:|:---:|
 |[목차](./README.md)|네트워크와 모델|[데이터 통신](./network-data_communication.md)|

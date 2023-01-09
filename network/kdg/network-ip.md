@@ -1,9 +1,9 @@
 # CS Study - Network
 
-빠른 이동
+<!-- prettier-ignore -->
 |<- 이전 | 현재 | 다음 ->|
 |:---:|:---:|:---:|
-|[데이터 통신](./network-data_communication.md)|IP 주소|[ARP 프로토콜](./network-ARP_Protocol.md)|
+|[데이터 통신](./network-data_communication.md)|IP 주소|[ARP 프로토콜](./network-arp_protocol.md)|
 
 <br/>
 

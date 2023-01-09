@@ -1,6 +1,6 @@
 # CS Study - Network
 
-빠른 이동
+<!-- prettier-ignore -->
 |<- 이전 | 현재 | 다음 ->|
 |:---:|:---:|:---:|
 |[네트워크와 모델](./network-basic.md)|데이터 통신|[IP 주소](./network-ip.md)|
